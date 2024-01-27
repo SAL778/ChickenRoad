@@ -31,6 +31,7 @@ public class CarSpawner : MonoBehaviour
         {
             GameObject newCar = Instantiate(cars[Random.Range(0, cars.Count)]);
             newCar.transform.position = transform.position;
+            newCar.transform.rotation = transform.rotation;
         } else
         {
             Debug.Log("No Cars in spawner: " + name);

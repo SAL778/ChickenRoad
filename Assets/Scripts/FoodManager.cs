@@ -6,6 +6,10 @@ using UnityEngine.UIElements;
 
 public class FoodManager : MonoBehaviour
 {
+    [SerializeField]
+    int FoodLimit = 1;
+    int spawnedFoods = 0;
+
     public static FoodManager Instance;
 
     private Camera cam;
@@ -58,13 +62,21 @@ public class FoodManager : MonoBehaviour
     }
     void SpawnFood()
     {
-        GameObject newFood = Instantiate(foodPrefab, worldPos, Quaternion.identity);
-        newFood.transform.position = worldPos;
-        onFoodSpawned.Invoke();
+        if(spawnedFoods < FoodLimit)
+        {
+            spawnedFoods++;
+            GameObject newFood = Instantiate(foodPrefab, worldPos, Quaternion.identity);
+            newFood.transform.position = worldPos;
+            onFoodSpawned.Invoke();
+        } else
+        {
+            Debug.Log("Food limit reached!");
+        }
     }
 
     void DespawnFood(GameObject food)
     {
+        spawnedFoods--;
         Destroy(food);
     }
 }
