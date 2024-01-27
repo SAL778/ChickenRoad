@@ -1,4 +1,0 @@
-repository "ChickenRoad@BitShaper@cloud"
-  path "/"
-    br "/main"
-    co "/main"
