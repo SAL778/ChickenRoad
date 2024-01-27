@@ -6,8 +6,20 @@ public class CarSpawner : MonoBehaviour
 {
     [SerializeField]
     List<GameObject> cars;
+    /// <summary>
+    /// Minimum move speed for the cars
+    /// </summary>
     [SerializeField]
     float moveSpeed = 1f;
+    /// <summary>
+    /// Randomizes move speeds. This may be unfair to the player.
+    /// </summary>
+    [SerializeField]
+    bool randomMoveSpeed = false;
+    /// <summary>
+    /// Maximum move speed for the cars
+    /// </summary>
+    float maxMoveSpeed = 2f;
     /// <summary>
     /// How many seconds between spawns.
     /// </summary>
@@ -42,6 +54,13 @@ public class CarSpawner : MonoBehaviour
             GameObject newCar = Instantiate(cars[Random.Range(0, cars.Count)]);
             newCar.transform.position = transform.position;
             newCar.transform.rotation = transform.rotation;
+            if(randomMoveSpeed)
+            {
+                newCar.GetComponent<Car>().moveSpeed = Random.Range(moveSpeed,maxMoveSpeed);
+            } else
+            {
+                newCar.GetComponent<Car>().moveSpeed = moveSpeed;
+            }
         } else
         {
             Debug.Log("No Cars in spawner: " + name);

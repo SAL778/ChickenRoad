@@ -317,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 103}
+  m_AnchoredPosition: {x: -16, y: 27}
   m_SizeDelta: {x: 609.3146, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269816056
@@ -943,7 +943,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Created by \nDalton Johnson, Brendon Leenheer, Ismail Hussein, Yron Gerona,
     Saahil Rachh, Vick\n\n<b><u>Programming</b></u>\nBrendon Leenheer\nDalton Johnson\nSaahil
-    Rachh\n\n<b><u>Art</u></b>\nIsmail Hussein\nVick\n\n<u><b>Audio</b></u>\nYron"
+    Rachh\n\n<b><u>Art</u></b>\nIsmail Hussein\nVick\n\n<u><b>Audio</b></u>\nYron
+    Gerona"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1213,8 +1214,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5f55c10c1f9243b43913afa45315ba23, type: 2}
-  m_sharedMaterial: {fileID: 6965422053061116039, guid: 5f55c10c1f9243b43913afa45315ba23, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1524,7 +1525,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657457970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1591,7 +1592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: 0}
+  m_AnchoredPosition: {x: -10, y: -200}
   m_SizeDelta: {x: 292.8584, y: 127.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1727280812
@@ -1800,7 +1801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 286}
+  m_AnchoredPosition: {x: -16, y: 210}
   m_SizeDelta: {x: 442.2712, y: 279.722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053594024

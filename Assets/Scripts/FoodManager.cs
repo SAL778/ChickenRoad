@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
+using TMPro;
 
 public class FoodManager : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class FoodManager : MonoBehaviour
 
     private Camera cam;
     public GameObject foodPrefab;
+    [SerializeField]
+    string FoodCounterPrefix = "Food: ";
+    [SerializeField]
+    TextMeshProUGUI FoodCounter;
+
     public UnityEvent onFoodSpawned;
     public UnityEvent onFoodDespawned;
 
@@ -70,6 +76,7 @@ public class FoodManager : MonoBehaviour
             GameObject newFood = Instantiate(foodPrefab, worldPos, Quaternion.identity);
             newFood.transform.position = worldPos;
             FoodList.Add(newFood);
+            SetFoodCounter();
             onFoodSpawned.Invoke();
         } else
         {
@@ -80,7 +87,13 @@ public class FoodManager : MonoBehaviour
     void DespawnFood(GameObject food)
     {
         FoodList.Remove(food);
+        SetFoodCounter();
         onFoodDespawned.Invoke();
         Destroy(food);
+    }
+
+    void SetFoodCounter()
+    {
+        if(FoodCounter != null) FoodCounter.text = FoodCounterPrefix + (FoodLimit - FoodList.Count) + "/" + FoodLimit;
     }
 }
