@@ -788,7 +788,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7145fbadc4a1e434b8164c352e8f2f4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1037,6 +1037,9 @@ MonoBehaviour:
   onFoodSpawned:
     m_PersistentCalls:
       m_Calls: []
+  onFoodDespawned:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1485161500
 Transform:
   m_ObjectHideFlags: 0
@@ -1099,6 +1102,10 @@ PrefabInstance:
     - target: {fileID: 941884286050864781, guid: b056072c365c6754ab9285c43c1eb2f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363671499396797478, guid: b056072c365c6754ab9285c43c1eb2f8, type: 3}
+      propertyPath: spawnRate
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4238282029724602897, guid: b056072c365c6754ab9285c43c1eb2f8, type: 3}
       propertyPath: m_Name

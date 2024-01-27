@@ -10,8 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 495188957635766159, guid: 4c3b81d48fc60f6479b99144b56062bd, type: 3}
       propertyPath: m_Name
-      value: Objective
+      value: Food
       objectReference: {fileID: 0}
+    - target: {fileID: 5570489124371721828, guid: 4c3b81d48fc60f6479b99144b56062bd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d8de79056564a0f4f9e3f7f3ae84104e, type: 2}
     - target: {fileID: 5719597441954344746, guid: 4c3b81d48fc60f6479b99144b56062bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
