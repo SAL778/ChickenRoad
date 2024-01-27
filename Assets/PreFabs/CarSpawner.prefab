@@ -13,7 +13,7 @@ GameObject:
   m_Layer: 0
   m_Name: CarSpawner
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -44,4 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b7018716b61510439412ce7b48f3172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cars: []
+  cars:
+  - {fileID: 9076361435173863134, guid: 7b75cfdba210d764e886804535cba0aa, type: 3}
+  moveSpeed: 1
+  spawnRate: 3
+  spawnStartDelay: 0

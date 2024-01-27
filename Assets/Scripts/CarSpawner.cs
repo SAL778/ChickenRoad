@@ -37,4 +37,12 @@ public class CarSpawner : MonoBehaviour
             Debug.Log("No Cars in spawner: " + name);
         }
     }
+
+    void OnDrawGizmosSelected()
+    {
+        // Draws a 5 unit long red line in front of the object
+        Gizmos.color = Color.red;
+        Vector3 direction = transform.TransformDirection(Vector3.forward) * 5;
+        Gizmos.DrawRay(transform.position, direction);
+    }
 }

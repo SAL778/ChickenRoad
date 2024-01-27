@@ -15,6 +15,7 @@ public class FoodManager : MonoBehaviour
     private Camera cam;
     public GameObject foodPrefab;
     public UnityEvent onFoodSpawned;
+    public UnityEvent onFoodDespawned;
 
     Vector3 mousePos;
     Vector3 worldPos;
