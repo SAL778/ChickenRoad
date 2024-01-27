@@ -78,6 +78,7 @@ public class FoodManager : MonoBehaviour
     void DespawnFood(GameObject food)
     {
         spawnedFoods--;
+        onFoodDespawned.Invoke();
         Destroy(food);
     }
 }
