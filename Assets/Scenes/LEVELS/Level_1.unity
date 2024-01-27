@@ -319,7 +319,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5383601608562975817, guid: a44ea59f799739e49af11f616c31d158, type: 3}
   m_PrefabInstance: {fileID: 1409422621}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960936123}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
@@ -1001,36 +1001,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2891706302438823863, guid: a44ea59f799739e49af11f616c31d158, type: 3}
-      propertyPath: m_Radius
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4552572887198411248, guid: a44ea59f799739e49af11f616c31d158, type: 3}
       propertyPath: m_Name
       value: Chicken
       objectReference: {fileID: 0}
-    - target: {fileID: 4552572887198411248, guid: a44ea59f799739e49af11f616c31d158, type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5383601608562975817, guid: a44ea59f799739e49af11f616c31d158, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 0fa9e2863c6584d48a3529cd9c76f96b, type: 2}
-    - target: {fileID: 9198041236690214315, guid: a44ea59f799739e49af11f616c31d158, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"RotationSpeed","value":{"$content":32.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MovementSpeed","value":{"$content":16.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HasDestination","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4552572887198411248, guid: a44ea59f799739e49af11f616c31d158, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1960936131}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a44ea59f799739e49af11f616c31d158, type: 3}
 --- !u!1 &1467215987
 GameObject:
@@ -1518,33 +1496,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941079765}
   m_CullTransparentMesh: 1
---- !u!1 &1960936123 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4552572887198411248, guid: a44ea59f799739e49af11f616c31d158, type: 3}
-  m_PrefabInstance: {fileID: 1409422621}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &1960936131
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960936123}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1 &2047466371
 GameObject:
   m_ObjectHideFlags: 0
