@@ -185,7 +185,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7145fbadc4a1e434b8164c352e8f2f4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -456,6 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d5cb366e271504fb8c9e1382e0a19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FoodLimit: 1
   foodPrefab: {fileID: 100760698512960371, guid: 017c3ab2566cbeb41be9ae7a8b56676a, type: 3}
   onFoodSpawned:
     m_PersistentCalls:
@@ -472,6 +473,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onFoodDespawned:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &660679658
 Transform:
   m_ObjectHideFlags: 0

@@ -8,8 +8,14 @@ public class CarSpawner : MonoBehaviour
     List<GameObject> cars;
     [SerializeField]
     float moveSpeed = 1f;
+    /// <summary>
+    /// How many seconds between spawns.
+    /// </summary>
     [SerializeField]
     float spawnRate = 3f;
+    /// <summary>
+    /// Delay the first car spawn for x seconds.
+    /// </summary>
     [SerializeField]
     float spawnStartDelay = 0f;
 
@@ -17,6 +23,7 @@ public class CarSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Basic, repeating car spawn. Constant pattern, no variation.
         InvokeRepeating("SpawnCar", spawnStartDelay, spawnRate);
     }
 
@@ -26,6 +33,9 @@ public class CarSpawner : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// Spawns a car at the position of the spawner, facing the same direction.
+    /// </summary>
     void SpawnCar() {
         if (cars != null && cars.Count > 0)
         {
@@ -38,6 +48,9 @@ public class CarSpawner : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Draws a red line that indicates the direction the cars will face when spawned.
+    /// </summary>
     void OnDrawGizmosSelected()
     {
         // Draws a 5 unit long red line in front of the object

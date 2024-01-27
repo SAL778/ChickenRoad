@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
+/// <summary>
+/// Cars spawn and move across the screen. When out of view, they de-spawn.
+/// </summary>
 [RequireComponent(typeof(BoxCollider))]
 public class Car : MonoBehaviour
 {
@@ -32,6 +36,7 @@ public class Car : MonoBehaviour
     private void LateUpdate()
     {
         //Debug.Log("Car is visible? " + meshRenderer.isVisible);
+        //This check prevents the car from being despawned if it spawned off screen.
         if(!carWasVisible)
         {
             if(meshRenderer.isVisible) carWasVisible = true;
@@ -43,6 +48,7 @@ public class Car : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //If we want the car to do anyting when it hits something... this is the place we'd put that code.
         Debug.Log("Car " + name + " hit something!");
     }
 }
