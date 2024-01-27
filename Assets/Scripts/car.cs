@@ -26,12 +26,12 @@ public class Car : MonoBehaviour
     {
         //transform.position = transform.position += transform.forward * moveSpeed * Time.deltaTime;
         rb.MovePosition(transform.position += transform.forward * moveSpeed * Time.deltaTime);
-        Debug.Log("Car has lived!");
+        //Debug.Log("Car has lived!");
     }
 
     private void LateUpdate()
     {
-        Debug.Log("Car is visible? " + meshRenderer.isVisible);
+        //Debug.Log("Car is visible? " + meshRenderer.isVisible);
         if(!carWasVisible)
         {
             if(meshRenderer.isVisible) carWasVisible = true;
