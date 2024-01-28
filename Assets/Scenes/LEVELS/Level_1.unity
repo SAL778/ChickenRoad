@@ -18568,7 +18568,7 @@ PrefabInstance:
         I will be late.","Traffic sure is busy, huh?","Oh, you\u2019re still here?
         Weird flex.","Listen, I need to pick my kids up from school, I don\u2019t
         have all day.","If you\u2019re reading this, you\u2019ve killed 49 chickens!
-        One more and I think that makes it a genocide."],"$type":"System.Collections.Generic.List`1[[System.String,
+        One more and I think that makes it a genocide.","Thanks for playing!"],"$type":"System.Collections.Generic.List`1[[System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Prompts","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
