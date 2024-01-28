@@ -47,6 +47,8 @@ MonoBehaviour:
   cars:
   - {fileID: 9076361435173863134, guid: 7b75cfdba210d764e886804535cba0aa, type: 3}
   - {fileID: 3854902202908410716, guid: a44caa1a20f05494b83dbfe2fec80199, type: 3}
+  - {fileID: 5230466954630228917, guid: ccf28dea6b6532c4f8a1bb1b0a80967e, type: 3}
+  - {fileID: 4267538344141804123, guid: b239625c024841c418fb94640cafaf1d, type: 3}
   moveSpeed: 1
   randomMoveSpeed: 0
   spawnRate: 3

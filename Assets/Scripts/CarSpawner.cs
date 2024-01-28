@@ -19,6 +19,7 @@ public class CarSpawner : MonoBehaviour
     /// <summary>
     /// Maximum move speed for the cars
     /// </summary>
+    [SerializeField]
     float maxMoveSpeed = 2f;
     /// <summary>
     /// How many seconds between spawns.
