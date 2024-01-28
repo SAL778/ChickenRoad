@@ -51,5 +51,7 @@ MonoBehaviour:
   - {fileID: 4267538344141804123, guid: b239625c024841c418fb94640cafaf1d, type: 3}
   moveSpeed: 1
   randomMoveSpeed: 0
+  maxMoveSpeed: 2
   spawnRate: 3
   spawnStartDelay: 0
+  lifetime: 20
