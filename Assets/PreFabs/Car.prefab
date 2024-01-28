@@ -444,7 +444,6 @@ GameObject:
   - component: {fileID: 1386823457750714470}
   - component: {fileID: 511996752034309449}
   - component: {fileID: 2518510986739330053}
-  - component: {fileID: 5442379267167664343}
   m_Layer: 2
   m_Name: Car
   m_TagString: Hazard
@@ -504,6 +503,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   length: 2
+  carWasVisible: 0
+  remainingLifeTime: 20
 --- !u!54 &2518510986739330053
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -531,21 +532,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5442379267167664343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9076361435173863134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1001 &8861103429298309813
 PrefabInstance:
   m_ObjectHideFlags: 0
