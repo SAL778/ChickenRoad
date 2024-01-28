@@ -2924,6 +2924,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e87dca2d5d31c43bb247c7440d10d3, type: 3}
+--- !u!1001 &214883234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5062741596922631687, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_Name
+      value: TextListManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150869917991131145, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
 --- !u!4 &215550992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6882639860937460842, guid: 22e87dca2d5d31c43bb247c7440d10d3, type: 3}
@@ -6939,7 +6996,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5383601608562975817, guid: a44ea59f799739e49af11f616c31d158, type: 3}
   m_PrefabInstance: {fileID: 1409422621}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 707195050}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
@@ -9561,6 +9618,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf8ba90b3cb78c045b18afc697b9a0a3, type: 3}
+--- !u!1 &707195050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4552572887198411248, guid: a44ea59f799739e49af11f616c31d158, type: 3}
+  m_PrefabInstance: {fileID: 1409422621}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &713269172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18467,20 +18529,74 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MovementSpeed","value":{"$content":16.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HasDestination","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerDeaths","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextListManager","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SomethingInThere","value":{"$content":["Press
+        [Left Mouse Button] to place food.","If you press [Left Mouse Button] on
+        food it will disappear.","Vehicles and other hazards will kill your chicken.","The
+        chicken moves toward the food it noticed first.","If multiple food items
+        are present, it will move toward whichever was placed first.","If no food
+        is present, the chicken will stop.","You can have up to ten food present
+        at any time.","Removing food allows you to make turns and use indirect paths.","Reach
+        the end of the level to win!","Why did the chicken cross the street? Let\u2019s
+        find out!","Chickens can run up to 14 kilometers an hour!","Chickens are
+        omnivores and can eat things as big as a young mouse.","Chickens can live
+        5-10 years.","Studies suggest chickens are as clever as human toddlers.","There
+        are more chickens than any other bird species.","\u201cWhy did the chicken
+        cross the road?\u201d has been asked since 1847.","In Japan it is customary
+        to eat chicken during the Christmas season.","A headless chicken can run
+        the length of a football field.","Chickens sometimes resort to eating their
+        own eggs.","The British Poultry Standard recognizes 93 chicken breeds.","Chickens
+        have increasingly become pets in urban and suburban areas since the 2000s.","The
+        closest living relative of the T-Rex is the chicken.","What language does
+        a fowl doctor write in?","Chicken scratch!","Chickens remember faces. I wonder
+        if this one will remember yours.","Chickens dream. Well, except that one.
+        It\u2019s dead now.","Don\u2019t kid yourself. If a chicken ever got the
+        chance, it\u2019d eat you and everyone you care about.","This chicken\u2019s
+        name is Randy Buck Chicken. Don\u2019t let him die.","Oh. He\u2019s dead.
+        :(","You\u2019re not just killing the chicken on purpose, right?","215 chickens
+        have the same blood volume as one cow.","Chickens die when they are killed.","You
+        know it\u2019s not the same chicken, right?","Though this isn\u2019t a real
+        chicken, so have at it!","I for one welcome our new chicken overlords.","I
+        thought I recognized you. I gave you a plate of corn muffins back in 1947
+        to paint my chicken coop!","Paint my chicken coop!","Let\u2019s see, uh\u2026
+        Chicken facts\u2026 Facts about chickens\u2026","Chickens see more color
+        than humans. Makes you think.","I\u2019m feeling like chicken tonight, chicken
+        tonight, chicken tonight\u2026","This chicken will chase corn into oncoming
+        traffic. What would you chase into oncoming traffic?","Wait, do I know you?","BWOCK!
+        Oh I\u2019m sorry, I thought you was corn.","You are still trying to reach
+        the objective, right?","Okay okay, just asking.","I\u2019ll let Timmy know
+        I will be late.","Traffic sure is busy, huh?","Oh, you\u2019re still here?
+        Weird flex.","Listen, I need to pick my kids up from school, I don\u2019t
+        have all day.","If you\u2019re reading this, you\u2019ve killed 49 chickens!
+        One more and I think that makes it a genocide."],"$type":"System.Collections.Generic.List`1[[System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Prompts","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
         Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 9198041236690214315, guid: a44ea59f799739e49af11f616c31d158, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9198041236690214315, guid: a44ea59f799739e49af11f616c31d158, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1536252340}
+    - target: {fileID: 9198041236690214315, guid: a44ea59f799739e49af11f616c31d158, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 5062741596922631687, guid: 16df5d19aa6d0f04b950893f558a044f, type: 3}
+    - target: {fileID: 9198041236690214315, guid: a44ea59f799739e49af11f616c31d158, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1647396448}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4552572887198411248, guid: a44ea59f799739e49af11f616c31d158, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1974226243}
   m_SourcePrefab: {fileID: 100100000, guid: a44ea59f799739e49af11f616c31d158, type: 3}
 --- !u!4 &1416282358 stripped
 Transform:
@@ -21464,6 +21580,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e87dca2d5d31c43bb247c7440d10d3, type: 3}
+--- !u!114 &1647396448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1050822791801518141, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
+  m_PrefabInstance: {fileID: 4148694882169565298}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1648896950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24871,6 +24998,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1780706414013227774, guid: a44ea59f799739e49af11f616c31d158, type: 3}
   m_PrefabInstance: {fileID: 1409422621}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1974226243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707195050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d731c9eb14c1336439c382358e67baa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textList:
+  - Press [Left Mouse Button] to place food.
+  - If you press [Left Mouse Button] on food it will disappear.
+  - Vehicles and other hazards will kill your chicken.
+  - The chicken moves toward the food it noticed first.
+  - If multiple food items are present, it will move toward whichever was placed
+    first.
+  - If no food is present, the chicken will stop.
+  - You can have up to ten food present at any time.
+  - Removing food allows you to make turns and use indirect paths.
+  - Reach the end of the level to win!
+  - "Why did the chicken cross the street? Let\u2019s find out!"
+  - Chickens can run up to 14 kilometers an hour!
+  - Chickens are omnivores and can eat things as big as a young mouse.
+  - Chickens can live 5-10 years.
+  - Studies suggest chickens are as clever as human toddlers.
+  - There are more chickens than any other bird species.
+  - "\u201CWhy did the chicken cross the road?\u201D has been asked since 1847."
+  - In Japan it is customary to eat chicken during the Christmas season.
+  - A headless chicken can run the length of a football field.
+  - Chickens sometimes resort to eating their own eggs.
+  - The British Poultry Standard recognizes 93 chicken breeds.
+  - Chickens have increasingly become pets in urban and suburban areas since the
+    2000s.
+  - The closest living relative of the T-Rex is the chicken.
+  - What language does a fowl doctor write in?
+  - Chicken scratch!
+  unhingedTextList:
+  - Chickens remember faces. I wonder if this one will remember yours.
+  - "Chickens dream. Well, except that one. It\u2019s dead now."
+  - "Don\u2019t kid yourself. If a chicken ever got the chance, it\u2019d eat you
+    and everyone you care about."
+  - "This chicken\u2019s name is Randy Buck Chicken. Don\u2019t let him die."
+  - "Oh. He\u2019s dead. :("
+  - "You\u2019re not just killing the chicken on purpose, right?"
+  - 215 chickens have the same blood volume as one cow.
+  - Chickens die when they are killed.
+  - "You know it\u2019s not the same chicken, right?"
+  - "Though this isn\u2019t a real chicken, so have at it!"
+  - I for one welcome our new chicken overlords.
+  - I thought I recognized you. I gave you a plate of corn muffins back in 1947 to
+    paint my chicken coop!
+  - Paint my chicken coop!
+  - "Let\u2019s see, uh\u2026 Chicken facts\u2026 Facts about chickens\u2026"
+  - Chickens see more color than humans. Makes you think.
+  - "I\u2019m feeling like chicken tonight, chicken tonight, chicken tonight\u2026"
+  - This chicken will chase corn into oncoming traffic. What would you chase into
+    oncoming traffic?
+  - Wait, do I know you?
+  - "BWOCK! Oh I\u2019m sorry, I thought you was corn."
+  - You are still trying to reach the objective, right?
+  - Okay okay, just asking.
+  - "I\u2019ll let Timmy know I will be late."
+  - Traffic sure is busy, huh?
+  - "Oh, you\u2019re still here? Weird flex."
+  - "Listen, I need to pick my kids up from school, I don\u2019t have all day."
+  - "Listen, I need to pick my kids up from school, I don\u2019t have all day."
+  - "If you\u2019re reading this, you\u2019ve killed 49 chickens! One more and I
+    think that makes it a genocide."
 --- !u!1001 &1975125537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27263,6 +27461,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1050822791801518141, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
+      propertyPath: m_text
+      value: Press [Left Mouse Button] to place or pick up food.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050822791801518141, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
+      propertyPath: m_fontSize
+      value: 27.9
+      objectReference: {fileID: 0}
     - target: {fileID: 8671629623706935146, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -27431,3 +27637,4 @@ SceneRoots:
   - {fileID: 1219252566}
   - {fileID: 359900923}
   - {fileID: 533401828}
+  - {fileID: 214883234}
