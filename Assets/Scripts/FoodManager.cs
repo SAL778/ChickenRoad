@@ -53,7 +53,7 @@ public class FoodManager : MonoBehaviour
             {
                 //Debug.Log("Pointer position World: " + pointerHit.point);
                 worldPos = pointerHit.point;
-                worldPos.y = 0.5f;
+                worldPos.y = pointerHit.point.y + 0.5f;
                 //if (pointerHit.collider.tag == "Default") transform.position = pointerHit.point + EyelineOffset;
                 if (pointerHit.collider.tag == "Objective")
                 {
@@ -63,11 +63,8 @@ public class FoodManager : MonoBehaviour
                 {
                     SpawnFood();
                 }
-
             }
-            
         }
-        
     }
     void SpawnFood()
     {
