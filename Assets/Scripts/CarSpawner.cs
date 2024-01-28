@@ -31,6 +31,8 @@ public class CarSpawner : MonoBehaviour
     /// </summary>
     [SerializeField]
     float spawnStartDelay = 0f;
+    [SerializeField]
+    float lifetime = 20f;
 
 
     // Start is called before the first frame update
@@ -55,7 +57,8 @@ public class CarSpawner : MonoBehaviour
             GameObject newCar = Instantiate(cars[Random.Range(0, cars.Count)]);
             newCar.transform.position = transform.position;
             newCar.transform.rotation = transform.rotation;
-            if(randomMoveSpeed)
+            newCar.GetComponent<Car>().remainingLifeTime = lifetime;
+            if (randomMoveSpeed)
             {
                 newCar.GetComponent<Car>().moveSpeed = Random.Range(moveSpeed,maxMoveSpeed);
             } else

@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 4400890683370887585, guid: 7b75cfdba210d764e886804535cba0aa, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 15c47c50e0811504bb7ae8e759f26334, type: 2}
+      objectReference: {fileID: 2100000, guid: 01bec88188b06f344a5f0301c1509b65, type: 2}
     - target: {fileID: 9076361435173863134, guid: 7b75cfdba210d764e886804535cba0aa, type: 3}
       propertyPath: m_Name
       value: Car_Orange
