@@ -2809,43 +2809,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<u><b>Created by </b></u>
-
-    Dalton Johnson, Brendon Leenheer, Ismail
+  m_text: "<u><b>Created by </b></u>\r\nDalton Johnson, Brendon Leenheer, Ismail
     Hussein, Nick Jackson, Yron Gerona, and Saahil Rachh for the Alberta Global Game
-    Jam 2024
-
-
-    <u><b>3rd Party Assets</b></u>
-
-    SYNTY POLYGON - Icons
-
-    Polytrope
-    Studio - Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES
-
-
-
-    <b><u>Programming</b></u>
-
-    Brendon
-    Leenheer
-
-    Dalton Johnson
-
-    Saahil Rachh
-
-
-    <b><u>Art</u></b>
-
-    Ismail
-    Hussein
-
-    Nick Jackson
-
-
-    <u><b>Audio</b></u>
-
-    Yron Gerona'
+    Jam 2024\r\n\r\n<u><b>3rd Party Assets</b></u>\r\nSYNTY POLYGON - Icons\r\nPolytrope
+    Studio - Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES\r\n\r\n<b><u>Programming</b></u>\r\nBitshaper
+    / Brendon Leenheer\r\nVitalcord / Dalton Johnson - https://vitalcord.itch.io/\r\nSaahil
+    Rachh\n\r\n<b><u>3D Art</u></b>\r\nIsmail Hussein\r - @ishtheneedler\nNick Jackson\r\n\r\n<u><b>Audio</b></u>\r\nYron
+    Gerona \r\n\r\n<b><u>Level Design:</b></u>\r\nYron Gerona\r\nNick Jackson"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
