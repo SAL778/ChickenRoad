@@ -82,7 +82,7 @@ public class FoodManager : MonoBehaviour
         }
     }
 
-    void DespawnFood(GameObject food)
+    public void DespawnFood(GameObject food)
     {
         FoodList.Remove(food);
         spawnedFoods--;
