@@ -46,7 +46,7 @@ public class Car : MonoBehaviour
 
     private void LateUpdate()
     {
-        Debug.Log("Car is visible? " + meshRenderer.isVisible);
+        //Debug.Log("Car is visible? " + meshRenderer.isVisible);
         //This check prevents the car from being despawned if it spawned off screen.
         if(!carWasVisible)
         {
@@ -61,6 +61,6 @@ public class Car : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //If we want the car to do anyting when it hits something... this is the place we'd put that code.
-        Debug.Log("Car " + name + " hit something!");
+        //Debug.Log("Car " + name + " hit something!");
     }
 }
