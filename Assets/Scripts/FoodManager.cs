@@ -9,7 +9,7 @@ public class FoodManager : MonoBehaviour
 {
     [SerializeField]
     int FoodLimit = 1;
-    //int spawnedFoods = 0;
+    int spawnedFoods = 0;
 
     public static FoodManager Instance;
 
@@ -68,11 +68,12 @@ public class FoodManager : MonoBehaviour
     }
     void SpawnFood()
     {
-        if(FoodList.Count < FoodLimit)
+        if(spawnedFoods < FoodLimit)
         {
             GameObject newFood = Instantiate(foodPrefab, worldPos, Quaternion.identity);
             newFood.transform.position = worldPos;
             FoodList.Add(newFood);
+            spawnedFoods++;
             SetFoodCounter();
             onFoodSpawned.Invoke();
         } else
@@ -84,6 +85,7 @@ public class FoodManager : MonoBehaviour
     void DespawnFood(GameObject food)
     {
         FoodList.Remove(food);
+        spawnedFoods--;
         SetFoodCounter();
         onFoodDespawned.Invoke();
         Destroy(food);
@@ -91,6 +93,6 @@ public class FoodManager : MonoBehaviour
 
     void SetFoodCounter()
     {
-        if(FoodCounter != null) FoodCounter.text = FoodCounterPrefix + (FoodLimit - FoodList.Count) + "/" + FoodLimit;
+        if(FoodCounter != null) FoodCounter.text = FoodCounterPrefix + (FoodLimit - spawnedFoods) + "/" + FoodLimit;
     }
 }
