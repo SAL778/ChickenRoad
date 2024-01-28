@@ -322,10 +322,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7423864318604621329, guid: b6c209e700c586748b9a30a614a43146, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d8de79056564a0f4f9e3f7f3ae84104e, type: 2}
+    - target: {fileID: -5625675310476158721, guid: b6c209e700c586748b9a30a614a43146, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8661d1938aad61549b4ef40b34cd1698, type: 2}
+    - target: {fileID: 903112373906683430, guid: b6c209e700c586748b9a30a614a43146, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8661d1938aad61549b4ef40b34cd1698, type: 2}
     - target: {fileID: 919132149155446097, guid: b6c209e700c586748b9a30a614a43146, type: 3}
       propertyPath: m_Name
       value: chicken_unpainted
       objectReference: {fileID: 0}
+    - target: {fileID: 4370785783184582747, guid: b6c209e700c586748b9a30a614a43146, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8661d1938aad61549b4ef40b34cd1698, type: 2}
+    - target: {fileID: 7464005830087138641, guid: b6c209e700c586748b9a30a614a43146, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 724ea23b1d7db794aa208e57d9f472d0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
