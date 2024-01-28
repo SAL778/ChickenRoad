@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2344142772539594993}
   - component: {fileID: 2710845878639433032}
   - component: {fileID: 1667899011152940635}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PT_Grass_02_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
