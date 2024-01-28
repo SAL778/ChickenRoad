@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2341717398108434098}
   - component: {fileID: 4452200806550140563}
   - component: {fileID: 6864714750461306004}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: HonkCollision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ Transform:
   m_GameObject: {fileID: 2429190255262176535}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7753776, y: 0.77942705, z: -0.035557233}
+  m_LocalPosition: {x: 0.025377572, y: 0.77942705, z: 0.08944277}
   m_LocalScale: {x: 1, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137,8 +137,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 1, z: 4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3, y: 1, z: 5}
+  m_Center: {x: 0, y: -0.25, z: 0}
 --- !u!82 &2341717398108434098
 AudioSource:
   m_ObjectHideFlags: 0
