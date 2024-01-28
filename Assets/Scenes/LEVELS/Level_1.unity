@@ -1134,6 +1134,8 @@ MonoBehaviour:
   FoodLimit: 10
   FoodList: []
   foodPrefab: {fileID: 100760698512960371, guid: 017c3ab2566cbeb41be9ae7a8b56676a, type: 3}
+  FoodCounterPrefix: 'Food: '
+  FoodCounter: {fileID: 0}
   onFoodSpawned:
     m_PersistentCalls:
       m_Calls: []
