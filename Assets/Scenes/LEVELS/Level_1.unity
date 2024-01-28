@@ -18530,45 +18530,48 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HasDestination","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerDeaths","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
         Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TextListManager","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SomethingInThere","value":{"$content":["Press
-        [Left Mouse Button] to place food.","If you press [Left Mouse Button] on
-        food it will disappear.","Vehicles and other hazards will kill your chicken.","The
-        chicken moves toward the food it noticed first.","If multiple food items
-        are present, it will move toward whichever was placed first.","If no food
-        is present, the chicken will stop.","You can have up to ten food present
-        at any time.","Removing food allows you to make turns and use indirect paths.","Reach
-        the end of the level to win!","Why did the chicken cross the street? Let\u2019s
-        find out!","Chickens can run up to 14 kilometers an hour!","Chickens are
-        omnivores and can eat things as big as a young mouse.","Chickens can live
-        5-10 years.","Studies suggest chickens are as clever as human toddlers.","There
-        are more chickens than any other bird species.","\u201cWhy did the chicken
-        cross the road?\u201d has been asked since 1847.","In Japan it is customary
-        to eat chicken during the Christmas season.","A headless chicken can run
-        the length of a football field.","Chickens sometimes resort to eating their
-        own eggs.","The British Poultry Standard recognizes 93 chicken breeds.","Chickens
-        have increasingly become pets in urban and suburban areas since the 2000s.","The
-        closest living relative of the T-Rex is the chicken.","What language does
-        a fowl doctor write in?","Chicken scratch!","Chickens remember faces. I wonder
-        if this one will remember yours.","Chickens dream. Well, except that one.
-        It\u2019s dead now.","Don\u2019t kid yourself. If a chicken ever got the
-        chance, it\u2019d eat you and everyone you care about.","This chicken\u2019s
-        name is Randy Buck Chicken. Don\u2019t let him die.","Oh. He\u2019s dead.
-        :(","You\u2019re not just killing the chicken on purpose, right?","215 chickens
-        have the same blood volume as one cow.","Chickens die when they are killed.","You
-        know it\u2019s not the same chicken, right?","Though this isn\u2019t a real
-        chicken, so have at it!","I for one welcome our new chicken overlords.","I
-        thought I recognized you. I gave you a plate of corn muffins back in 1947
-        to paint my chicken coop!","Paint my chicken coop!","Let\u2019s see, uh\u2026
-        Chicken facts\u2026 Facts about chickens\u2026","Chickens see more color
-        than humans. Makes you think.","I\u2019m feeling like chicken tonight, chicken
-        tonight, chicken tonight\u2026","This chicken will chase corn into oncoming
-        traffic. What would you chase into oncoming traffic?","Wait, do I know you?","BWOCK!
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SomethingInThere","value":{"$content":["","If
+        you press [Left Mouse Button] on food it will disappear.","Vehicles and other
+        hazards will kill your chicken.","The chicken moves toward the food it noticed
+        first.","If multiple food items are present, it will move toward whichever
+        was placed first.","If no food is present, the chicken will stop.","You can
+        have up to ten food present at any time.","Removing food allows you to make
+        turns and use indirect paths.","Reach the end of the level to win!","Why
+        did the chicken cross the street? Let\u2019s find out!","Chickens can run
+        up to 14 kilometers an hour!","Chickens are omnivores and can eat things
+        as big as a young mouse.","Chickens can live 5-10 years.","Studies suggest
+        chickens are as clever as human toddlers.","There are more chickens than
+        any other bird species.","\u201cWhy did the chicken cross the road?\u201d
+        has been asked since 1847.","In Japan it is customary to eat chicken during
+        the Christmas season.","A headless chicken can run the length of a football
+        field.","Chickens sometimes resort to eating their own eggs.","The British
+        Poultry Standard recognizes 93 chicken breeds.","Chickens have increasingly
+        become pets in urban and suburban areas since the 2000s.","The closest living
+        relative of the T-Rex is the chicken.","What language does a fowl doctor
+        write in?","Chicken scratch!","Chickens remember faces. I wonder if this
+        one will remember yours.","Chickens dream. Well, except that one. It\u2019s
+        dead now.","Don\u2019t kid yourself. If a chicken ever got the chance, it\u2019d
+        eat you and everyone you care about.","This chicken\u2019s name is Randy
+        Buck Chicken. Don\u2019t let him die.","Oh. He\u2019s dead. :(","You\u2019re
+        not just killing the chicken on purpose, right?","215 chickens have the same
+        blood volume as one cow.","Chickens die when they are killed.","You know
+        it\u2019s not the same chicken, right?","Though this isn\u2019t a real chicken,
+        so have at it!","I for one welcome our new chicken overlords.","I thought
+        I recognized you. I gave you a plate of corn muffins back in 1947 to paint
+        my chicken coop!","Paint my chicken coop!","Let\u2019s see, uh\u2026 Chicken
+        facts\u2026 Facts about chickens\u2026","Chickens see more color than humans.
+        Makes you think.","I\u2019m feeling like chicken tonight, chicken tonight,
+        chicken tonight\u2026","This chicken will chase corn into oncoming traffic.
+        What would you chase into oncoming traffic?","Wait, do I know you?","BWOCK!
         Oh I\u2019m sorry, I thought you was corn.","You are still trying to reach
         the objective, right?","Okay okay, just asking.","I\u2019ll let Timmy know
         I will be late.","Traffic sure is busy, huh?","Oh, you\u2019re still here?
         Weird flex.","Listen, I need to pick my kids up from school, I don\u2019t
         have all day.","If you\u2019re reading this, you\u2019ve killed 49 chickens!
-        One more and I think that makes it a genocide.","Thanks for playing!"],"$type":"System.Collections.Generic.List`1[[System.String,
+        One more and I think that makes it a genocide.","Thanks for playing!","Hey
+        Jipreal you are immortalized like you always wanted. ","Special thanks to
+        the Edmonton Game Jam community!","Stand up, Vanguard.","Thank you to all
+        our loved ones for your love and support!","Check out Fair Play 4 Game Workers"],"$type":"System.Collections.Generic.List`1[[System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Prompts","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
@@ -27463,11 +27466,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1050822791801518141, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
       propertyPath: m_text
-      value: Press [Left Mouse Button] to place or pick up food.
+      value: Press [Left Mouse Button] to place food.
       objectReference: {fileID: 0}
     - target: {fileID: 1050822791801518141, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
       propertyPath: m_fontSize
-      value: 27.9
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 8671629623706935146, guid: fd6e18e33fb47704680ab9c3a0525899, type: 3}
       propertyPath: m_Pivot.x
