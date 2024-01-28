@@ -614,6 +614,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269816054}
   m_CullTransparentMesh: 1
+--- !u!1001 &285751670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2549054593802932585, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_Name
+      value: PT_River_Rock_Pile_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.507872
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.008098521
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.6953673
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
 --- !u!1001 &309370826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -816,6 +873,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312073613}
   m_CullTransparentMesh: 1
+--- !u!1001 &316896393
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2549054593802932585, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_Name
+      value: PT_River_Rock_Pile_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.0669622
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00809876
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.9582367
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
 --- !u!1 &388704226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,7 +1230,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2063190688}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.40399998}
+  m_AnchorMin: {x: 0, y: 0.134}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -1691,35 +1805,35 @@ MonoBehaviour:
   m_text: '<u><b>Created by </b></u>
 
     Dalton Johnson, Brendon Leenheer, Ismail
-    Hussein, Vick Jackson, Yron Gerona, Saahil Rachh
+    Hussein, Nick Jackson, Yron Gerona, and Saahil Rachh for the Alberta Global Game
+    Jam 2024
 
 
     <u><b>3rd Party Assets</b></u>
 
-    SYNTY
-    POLYGON - Icons
+    SYNTY POLYGON - Icons
 
-    Polytrope Studio - Lowpoly Environment - Nature Free - MEDIEVAL
-    FANTASY SERIES
+    Polytrope
+    Studio - Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES
 
 
 
     <b><u>Programming</b></u>
 
-    Brendon Leenheer
+    Brendon
+    Leenheer
 
-    Dalton
-    Johnson
+    Dalton Johnson
 
     Saahil Rachh
 
 
     <b><u>Art</u></b>
 
-    Ismail Hussein
+    Ismail
+    Hussein
 
-    Vick
-    Jackson
+    Nick Jackson
 
 
     <u><b>Audio</b></u>
@@ -1751,7 +1865,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.9
+  m_fontSize: 20.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1801,6 +1915,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026560378}
   m_CullTransparentMesh: 1
+--- !u!1001 &1045447557
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2549054593802932585, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_Name
+      value: PT_River_Rock_Pile_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.195358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6669476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0215757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
 --- !u!1 &1046678214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,7 +2189,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 433422793}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.596
+  m_Size: 0.866
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3373,6 +3544,132 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772273811}
   m_CullTransparentMesh: 1
+--- !u!1001 &1776920484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2549054593802932585, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_Name
+      value: PT_River_Rock_Pile_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2198277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.008095659
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.623102
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+--- !u!1001 &1808329450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2549054593802932585, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_Name
+      value: PT_River_Rock_Pile_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.035849
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.9831
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.13052888
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9914446
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 165
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894652416639355859, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96fb2ab999b14514c8df322978f14a16, type: 3}
 --- !u!1 &1882793748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,3 +4267,8 @@ SceneRoots:
   - {fileID: 1321563115}
   - {fileID: 1905383830}
   - {fileID: 1085161089}
+  - {fileID: 1045447557}
+  - {fileID: 316896393}
+  - {fileID: 1776920484}
+  - {fileID: 285751670}
+  - {fileID: 1808329450}
