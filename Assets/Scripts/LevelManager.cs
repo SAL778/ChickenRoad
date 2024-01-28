@@ -37,5 +37,12 @@ public class LevelManager : MonoBehaviour
     public void LoadLevel(int levelIndex)
     {
         SceneManager.LoadScene(levelIndex);
+        if (levelIndex == 0) AudioManager.instance.OneShotBawk();
+    }
+
+    public void QuitGame()
+    {
+        AudioManager.instance.OneShotBawk();
+        Application.Quit();
     }
 }
