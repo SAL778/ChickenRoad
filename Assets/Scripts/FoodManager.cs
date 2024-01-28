@@ -68,12 +68,12 @@ public class FoodManager : MonoBehaviour
     }
     void SpawnFood()
     {
-        if(spawnedFoods < FoodLimit)
+        if(FoodList.Count < FoodLimit)
         {
             GameObject newFood = Instantiate(foodPrefab, worldPos, Quaternion.identity);
             newFood.transform.position = worldPos;
             FoodList.Add(newFood);
-            spawnedFoods++;
+            //spawnedFoods++;
             SetFoodCounter();
             onFoodSpawned.Invoke();
         } else
@@ -85,7 +85,7 @@ public class FoodManager : MonoBehaviour
     public void DespawnFood(GameObject food)
     {
         FoodList.Remove(food);
-        spawnedFoods--;
+        //spawnedFoods--;
         SetFoodCounter();
         onFoodDespawned.Invoke();
         Destroy(food);
@@ -93,6 +93,6 @@ public class FoodManager : MonoBehaviour
 
     void SetFoodCounter()
     {
-        if(FoodCounter != null) FoodCounter.text = FoodCounterPrefix + (FoodLimit - spawnedFoods) + "/" + FoodLimit;
+        if(FoodCounter != null) FoodCounter.text = FoodCounterPrefix + (FoodLimit - FoodList.Count) + "/" + FoodLimit;
     }
 }
