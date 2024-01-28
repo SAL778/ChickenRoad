@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 2452247259025422256}
   - component: {fileID: 8871605454367235916}
   - component: {fileID: 5556918888045942125}
-  m_Layer: 0
+  - component: {fileID: 6576398927889128011}
+  - component: {fileID: 2449617932218883291}
+  m_Layer: 2
   m_Name: SM_Icon_Skull_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 86d28adae72189d47a3622668091df59, type: 2}
+  - {fileID: -7791486788655378091, guid: b6c209e700c586748b9a30a614a43146, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,6 +85,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6576398927889128011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895420142733944800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FadeoutTime","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FadeoutColor","value":{"r":1.0,"g":1.0,"b":1.0,"a":0.0,"$type":"UnityEngine.Color"},"typeHandle":{"Identification":"UnityEngine.Color,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2449617932218883291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895420142733944800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f8eaa7b7691b0f54788277094eaec430, type: 2}
 --- !u!1 &8875966368019826162
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +127,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8987509067264375643}
-  m_Layer: 0
+  - component: {fileID: -2022337011684111757}
+  m_Layer: 2
   m_Name: Skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,3 +151,18 @@ Transform:
   - {fileID: 2452247259025422256}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2022337011684111757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8875966368019826162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
