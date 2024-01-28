@@ -3,22 +3,7 @@ guid: 82d324b9bc72763408b4d7fcf4bdbf0b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: standardSurface3
-    second: {fileID: 2100000, guid: 86d28adae72189d47a3622668091df59, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: sidewalk2_low_standardSurface3_BaseColor
-    second: {fileID: 2800000, guid: 541107894d92039469c6fe022654201a, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: sidewalk2_low_standardSurface3_Normal
-    second: {fileID: 2800000, guid: 53e6985c1f3cc224aa24abd05d074ded, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
