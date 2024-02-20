@@ -48,14 +48,24 @@ public class Car : MonoBehaviour
     {
         //Debug.Log("Car is visible? " + meshRenderer.isVisible);
         //This check prevents the car from being despawned if it spawned off screen.
-        if(!carWasVisible)
-        {
-            if(meshRenderer.isVisible) carWasVisible = true;
-        } else
-        {
-            if (!meshRenderer.isVisible) Destroy(gameObject);
-        }
+        //if(!carWasVisible)
+        //{
+        //    if(meshRenderer.isVisible) carWasVisible = true;
+        //} else
+        //{
+        //    if (!meshRenderer.isVisible) Destroy(gameObject);
+        //}
         
+    }
+
+    private void OnBecameVisible()
+    {
+        carWasVisible = true;
+    }
+
+    private void OnBecameInvisible()
+    {
+        if (carWasVisible) Destroy(gameObject);
     }
 
     private void OnCollisionEnter(Collision collision)
